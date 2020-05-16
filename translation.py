@@ -1,7 +1,5 @@
 class Translation(object):
-    START_TEXT = """This is an @AnyDLBot clone created using the Open Source code available.
-Source Code: https://github.com/SpEcHiDe/AnyDLBot
-© @AnyDLBot"""
+    START_TEXT = """This is an FileManager Bot by @obsquriel"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "This is an @AnyDLBot clone created using the Open Source <a href='https://github.com/SpEcHiDe/AnyDLBot'>code</a>. \nStart @AnyDLBot to know Paid Plans!"
@@ -31,7 +29,7 @@ Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.me/SpEcHlDe/599'>{}</a>
 Expires on: {}"""
     HELP_USER = """There are multiple things I can do:
-👉 <a href="https://t.me/SpEcHlDe/608">All Supported Video / File Formats, with custom file name and custom thumbnail support</a>
+👉 <a href="https://t.me/kyne3301">All Supported Video / File Formats, with custom file name and custom thumbnail support</a>
 👉 <a href="https://t.me/SpEcHlDe/609">Upload as file from any HTTP link, with custom thumbnail support</a>
 👉 <a href="https://telegram.dog/AnyDLBot">Convert To Streamable Video, any Telegram file</a>
 👉 <a href="https://telegram.dog/AnyDLBot">Convert To Telegram Audio, the media sent as Telegram Documents</a>
@@ -67,7 +65,7 @@ You can use /rename command after receiving file to rename it with custom thumbn
     CANCEL_STR = "Process Cancelled"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
     FREE_USER_LIMIT_Q_SZE = """Cannot Process.
-Free users only 1 request per 30 minutes.
+Free users only 1 request per 1hour contact @obsq_bot for decreasing time limit.
 /upgrade or Try 1800 seconds later."""
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     IFLONG_FILE_NAME = """File Name limit allowed by Telegram is {alimit} characters.
