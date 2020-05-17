@@ -1,18 +1,18 @@
 class Translation(object):
     START_TEXT = """Hey I'am kyneRename Bot!,
 I'am a Rename Bot!
-Join [kyne3301](https://t.me/kyne3301) to check out all kyne Projects.
+Join @kyne3301 to check out all kyne Projects.
 
 <b>Please send me any Telegram file and reply to that file /rename <New Name.extention></b>
 
 /help for more details.."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    UPGRADE_TEXT = "<b>📌Create your own kyneRename Bot! </b>  /help for Details"
+    DOWNLOAD_START = "📥Trying to download to kyne3301 server..."
+    UPLOAD_START = "📤Trying to upload back"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**If you find my work useful join my channel [kyne3301](https://t.me/kyne3301).**"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**If you find my work useful join my channel @kyne3301.**"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
