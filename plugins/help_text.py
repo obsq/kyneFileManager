@@ -1,4 +1,4 @@
-©Project '3301'
+# ©Project '3301'
 
 # the logging things
 import logging
