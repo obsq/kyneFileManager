@@ -1,6 +1,9 @@
 class Translation(object):
-    START_TEXT = """Hey I'am kyneRename Bot!,
-I'am a Rename Bot!
+    START_TEXT = """Hey I'am kyneRename Bot!
+
+I'am a file Renamer Bot!
+
+
 Join @kyne3301 to check out all kyne Projects.
 
 <b>Please send me any Telegram file and reply to that file /rename New Name.extention</b>
@@ -28,12 +31,12 @@ Click /help for more details.."""
 📌 Send me any Telegram File.
 📌 Reply to that message to /rename new name.extension.
    
-<b>Create own kyneRename Bot :</b> ⚒️ <a href="https://t.me/kyne3301">DEPLOY</a>
+<b>Create own kyneRename Bot:</b> <a href="https://t.me/kyne3301">DEPLOY</a>
 
 --------
 
-📢: @kyne3301
-© : @obsquriel"""
+📢Support Channel @kyne3301
+Made with love by @obsquriel"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename <New Name.extension> with custom thumbnail support.."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
     FREE_USER_LIMIT_Q_SZE = """Cannot Process.
