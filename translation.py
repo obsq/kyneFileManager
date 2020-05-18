@@ -1,14 +1,14 @@
 class Translation(object):
-    START_TEXT = """Hey I'am kyneRename Bot!
+    START_TEXT = """`Hey I'am kyneRename Bot!`
 
-I'am a file Renamer Bot!
+`I'am a file Renamer Bot!`
 
 
-Join @kyne3301 to check out all kyne Projects.
+`Join` @kyne3301 `to check out all kyne Projects.`
 
-<b>Please send me any Telegram file and reply to that file /rename New Name.extention</b>
+<b>`Please send me any Telegram file and reply to that file /rename New Name.extention`</b>
 
-Click /help for more details.."""
+`Click` /help `for more details..`"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>📌Create your own kyneRename Bot! </b>  /help for Details"
@@ -26,17 +26,15 @@ Click /help for more details.."""
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    HELP_USER = """ kyneRename Bot help!
+    HELP_USER = """ `kyneRename Bot help!`
     
-📌 Send me any Telegram File.
-📌 Reply to that message to /rename new name.extension.
+`📌 Send me any Telegram File.`
+`📌 Reply to that message to /rename new name.extension.`
    
-<b>Create own kyneRename Bot:</b> <a href="https://t.me/kyne3301">DEPLOY</a>
+<b> `To Create Your Own kyne click on` </b> <a href="https://t.me/kyne3301">kyne3301</a>
 
---------
 
-📢Support Channel @kyne3301
-Made with love by @obsquriel"""
+📢Support Channel @kyne3301"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename <New Name.extension> with custom thumbnail support.."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
     FREE_USER_LIMIT_Q_SZE = """Cannot Process.
