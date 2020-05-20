@@ -23,8 +23,9 @@ Click /help for more details.."""
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyDLBot"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @kyneFileManager"
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
+    REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     HELP_USER = """ kyneRename Bot help!
     
 📌 Send me any Telegram File.
