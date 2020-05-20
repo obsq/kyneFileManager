@@ -1,14 +1,9 @@
 class Translation(object):
-    START_TEXT = """Hey I'am kyneRename Bot!
+    START_TEXT = """Hey I'am kyneFileManager Bot!
 
-I'am a file Renamer Bot!
-
+I can do multiple things like Rename a TG file with custom thumbnail , Get high speed external download link for aTG file , Take screen shots of a Video without downloading it etc.
 
 Join @kyne3301 to check out all kyne projects!
-
-<b>Please send me any Telegram file and reply to that file /rename New Name.extention</b>
-
-<b>Please send me any Telegram file and reply to that file /getlink New Name.extention<b>
 
 Click /help for more details.."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
@@ -33,8 +28,8 @@ Click /help for more details.."""
     HELP_USER = """ kyneRename Bot help!
     
 📌 Send me any Telegram File.
-📌 Reply to that message to /rename new name.extension.
-📌 Gets High sownload speed external link! /getlink .
+📌 Reply to that message /rename new name.extension.
+📌 Reply to that message /getlink new name.extention.
    
 <b> To Create Your Own kyne click on </b> <a href="https://t.me/kyne3301">kyne3301</a>
 
