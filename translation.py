@@ -1,7 +1,14 @@
 class Translation(object):
-    START_TEXT = """`Hey I'am kyneRename Bot!`\n`I'am a file Renamer Bot!`\n\n`Join @kyne3301 to check out all kyne projects!`
+    START_TEXT = """Hey I'am kyneRename Bot!
+
+I'am a file Renamer Bot!
+
+
+Join @kyne3301 to check out all kyne projects!
 
 <b>Please send me any Telegram file and reply to that file /rename New Name.extention</b>
+
+<b>Please send me any Telegram file and reply to that file /getlink New Name.extention<b>
 
 Click /help for more details.."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
@@ -21,10 +28,13 @@ Click /help for more details.."""
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyDLBot"
+    REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     HELP_USER = """ kyneRename Bot help!
     
 📌 Send me any Telegram File.
-📌 Reply to that message to /rename new name.extension.`
+📌 Reply to that message to /rename new name.extension.
+📌 Gets High sownload speed external link! /getlink .
    
 <b> To Create Your Own kyne click on </b> <a href="https://t.me/kyne3301">kyne3301</a>
 
