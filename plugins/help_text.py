@@ -51,16 +51,17 @@ async def start(bot, update):
     TRChatBase(update.from_user.id, update.text, "/start")
     await bot.send_message(
         chat_id=update.chat.id,
-        text= "`Hi there! I'am kyneFileManager Bot`\n\
+        text= f"`Hi there! I'am kyneFileManager Bot`\n\
 `I can you in 2 ways--Click on` /help `to know how to use me in full potential!`"
+        quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Source 🕯️', url='https://github.com/odysseusmax/animated-lamp'),
-                    InlineKeyboardButton('Project Channel', url='https://t.me/kyne3301')
+                    InlineKeyboardButton('Source 😒', url='https://github.com/odysseusmax/animated-lamp'),
+                    InlineKeyboardButton('Project Channel', url='https://t.me/odbots')
                 ],
                 [
-                    InlineKeyboardButton('My Owner', url='https://t.me/obsquriel')
+                    InlineKeyboardButton('My Father', url='https://t.me/odysseusmax')
                 ]
             ]
         )
