@@ -1,7 +1,7 @@
 class Translation(object):
     START_TEXT = """Hey I'am kyneFileManager Bot!
 
-I can do multiple things like Rename a TG file with custom thumbnail , Get high speed external download link for aTG file , Take screen shots of a Video without downloading it etc.
+I can do multiple things like Rename a TG file with custom thumbnail , Get high speed external download link for a TG file.
 
 Join @kyne3301 to check out all kyne projects!
 
