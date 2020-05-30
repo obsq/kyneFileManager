@@ -49,9 +49,9 @@ async def help_user(bot, update):
 async def start(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/start")
-    await bot.reply_text(
+    await bot.send_message(
         chat_id=update.chat.id,
-        text= f"`Hi there! I'am kyneFileManager Bot`"
+        text="`Hi there! I'am kyneFileManager Bot`"
         reply_to_message_id=update.message_id
     )
 
