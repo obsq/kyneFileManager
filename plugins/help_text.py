@@ -39,7 +39,7 @@ async def help_user(bot, update):
     TRChatBase(update.from_user.id, update.text, "/help")
     await bot.send_message(
         chat_id=update.chat.id,
-        text="`I can do multiple things like--`\n\n\
+        text = "`I can do multiple things like--`\n\n\
 `📝 Rename a file with Cutom  thumbnail.`\n\
 `📥 Get high speed external download link for a file.`",
         parse_mode="html",
@@ -53,7 +53,7 @@ async def start(bot, update):
     TRChatBase(update.from_user.id, update.text, "/start")
     await bot.send_message(
         chat_id=update.chat.id,
-        text="`Hi there! I'am kyneFileManager Bot`\n\n\
+        text = "`Hi there! I'am kyneFileManager Bot`\n\n\
 `Click on` /help `to know how to use me in full potential!`",
         reply_markup=InlineKeyboardMarkup(
             [
