@@ -52,6 +52,17 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('Source 😒', url='https://github.com/odysseusmax/animated-lamp'),
+                    InlineKeyboardButton('Project Channel', url='https://t.me/odbots')
+                ],
+                [
+                    InlineKeyboardButton('My Father', url='https://t.me/odysseusmax')
+                ]
+            ]
+        ),
         reply_to_message_id=update.message_id
     )
 
