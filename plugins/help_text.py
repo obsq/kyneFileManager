@@ -53,7 +53,7 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text= f"`Hi there! I'am kyneFileManager Bot`\n\
 `I can you in 2 ways--Click on` /help `to know how to use me in full potential!`"
-        quote=True,
+        
         reply_markup=InlineKeyboardMarkup(
             [
                 [
