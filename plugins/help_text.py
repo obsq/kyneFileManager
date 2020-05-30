@@ -42,6 +42,17 @@ async def help_user(bot, update):
         text = "I can do multiple things like--\n\n\
 📝 Rename a file with Cutom  thumbnail.\n\
 📥 Get high speed external download link for a file.",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('Rename Help', callback_data='rename_help'),
+                    InlineKeyboardButton('Link Help', callback_data='link_help')
+                ],
+                [
+                    InlineKeyboardButton('My Creator 🔖', url='https://t.me/obsquriel')
+                ]
+            ]
+        ),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
@@ -58,7 +69,7 @@ Click on /help to know how to use me in full potential!",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Source 📚', url='https://github.com/odysseusmax/animated-lamp'),
+                    InlineKeyboardButton('Source 📚', url='https://github.com/No_source_available'),
                     InlineKeyboardButton('Project Channel', url='https://t.me/kyne3301')
                 ],
                 [
@@ -81,3 +92,8 @@ async def upgrade(bot, update):
         reply_to_message_id=update.message_id,
         disable_web_page_preview=True
     )
+
+
+rename_text="**Renaming a TG file**\n\n ➡️Sent a cushebejneje"
+
+link_help="hdjrjjddjjdjdejejej"
