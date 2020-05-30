@@ -54,17 +54,7 @@ async def start(bot, update):
         text= f"`Hi there! I'am kyneFileManager Bot`\n\
 `I can you in 2 ways--Click on` /help `to know how to use me in full potential!`"
         
-        reply_markup= InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton('Source 😒', url='https://github.com/odysseusmax/animated-lamp'),
-                    InlineKeyboardButton('Project Channel', url='https://t.me/odbots')
-                ],
-                [
-                    InlineKeyboardButton('My Father', url='https://t.me/odysseusmax')
-                ]
-            ]
-        )
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Source 😒', url='https://github.com/odysseusmax/animated-lamp'),InlineKeyboardButton('Project Channel', url='https://t.me/odbots')], [InlineKeyboardButton('My Father', url='https://t.me/odysseusmax')]])
         reply_to_message_id=update.message_id
     )
 
