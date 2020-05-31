@@ -45,8 +45,8 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Rename Help', callback_data='rename_help'),
-                    InlineKeyboardButton('Link Help', callback_data='link_help')
+                    InlineKeyboardButton('Rename Help', callback_data='{rename_help}'),
+                    InlineKeyboardButton('Link Help', callback_data='{link_help}')
                 ],
                 [
                     InlineKeyboardButton('My Creator 🔖', url='https://t.me/obsquriel')
